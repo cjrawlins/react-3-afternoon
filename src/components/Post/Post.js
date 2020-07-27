@@ -101,9 +101,8 @@ export default class Post extends Component {
                     id = { this.props.id }
                     />
             :
-            //--------Error in this span when it receives 'text', every other prop works----//
-            //--------I suspect bad data in text causing error---------//
-            <span className="Post__text">{ this.props.id }</span>
+
+            <span className="Post__text">{ this.props.text }</span>
           }
         </div>
 
